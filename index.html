@@ -17,6 +17,14 @@
     <main>
         <section class="informacoes">
             <form action="">
+                <input type="button" values="5%" >
+                <input type="button" values="10%">
+                <input type="button" values="15%">
+                <input type="button" values="25%">
+                <input type="button" values="50%">
+                <input type="number" name="outra" id="outra" placeholder="Outra"> 
+              </div>
+              
                 <div class="conta">
                     <label for="conta">conta</label>
 
@@ -28,21 +36,20 @@
 
                 <div class="gorjeta">
                     <label for="outra">Selecione a gorjeta%</label>
-                    <div>
-                      <input type="button" values="5%" >
-                      <input type="button" values="10%">
-                      <input type="button" values="15%">
-                      <input type="button" values="25%">
-                      <input type="button" values="50%">
-                      <input type="number" name="outra" id="outra" placeholder="Outra"> 
-                    </div>
+                  
+
                 </div>
 
                 <div class="pessoas">
+                    <div class="textos">
                         <label for="pessoas">Quantidade de pessoas</label>
                         <p id="erro">Não pode ser zero</p>
+                    </div>
+
+                        </div>
+                        
     
-                        <div>
+                        <div class="input-box">
                             <img src="./images/icon-person.svg" alt="icone de pessoas">
                             <input type="number" name="pessoas" id="pessoas" placeholder="0">
                         </div>
@@ -52,6 +59,7 @@
 
         <section class="resultados">
             <div class="gorjeta-total">
+                <div>
                 <p>
                     <strong>Gorjeta</strong> <br>
                     /pessoa
@@ -65,6 +73,7 @@
                     <strong>Total</strong> <br>
                     /pessoa
                 </p>
+            </div>
 
                 <strong>$ 0.00</strong>
             </div>

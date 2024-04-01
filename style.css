@@ -153,3 +153,19 @@ main  {
 .resultados .gorjeta-total {
     margin-bottom: 1.25rem;
 }
+
+.resultados .gorjeta-total {
+    margin-bottom: 2rem;
+}
+
+.resultadosb button {
+    width: 100%;
+    background: var(--light-green);
+    border: none;
+    border-radius: 0.3125rem;
+    color: var(--green-800); 
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding-block: 0.5rem;
+}

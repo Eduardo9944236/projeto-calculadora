@@ -113,6 +113,11 @@ main  {
     cursor: pointer;
 }
 
+.gorjeta .botao-ativo {
+    background-color: var(--light-green);
+    color: var(--green-800);
+}
+
 .gorjeta input[type="button"]:hover,
 .resultados button:hover {
 
@@ -135,7 +140,7 @@ main  {
     align-items: center;
     justify-content: space-between;
 }
-.pessoas .erro-div {
+.pessoas #erro-div {
     outline:  2px solid var(--danger);
 }
 

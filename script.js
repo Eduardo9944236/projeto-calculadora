@@ -28,3 +28,5 @@ function receberQuantidadePessoas(evento) {
 
     }
 }
+
+const  botoesGorjeta = document.querySelectorAll(".gorjeta input[type= 'number']")
